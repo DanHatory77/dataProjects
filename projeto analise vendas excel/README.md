@@ -1,4 +1,4 @@
-# Projeto Analise Vendas de supermecado com Excel
+# Projeto Analise Vendas de supermercado com Excel
 
 ## Introdução
 
