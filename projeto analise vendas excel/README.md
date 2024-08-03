@@ -5,22 +5,22 @@
 Esse projeto tem como intuito obter insights de vendas de um supermecado utilizando tabela dinamica e graficos extraidos de uma csv no excel.
 O supermecado baratão Tem uma tabela para a gestão de dados de vendas que contém as seguintes colunas:
 * Invoice ID (ID da fatura): Número de identificação da fatura do recibo de venda gerado por computador.
-* Agência: filiais do supermercado (3 agências estão disponíveis identificadas por A, B e C).
-* Cidade: Localização dos supercentros.
-* Tipo de cliente: Tipo de clientes, registrados por Membros para clientes que usam cartão de membro e Normal para sem cartão de membro.
-* Gênero: Tipo de gênero do cliente.
-* Linha de produtos: Grupos de categorização de itens gerais - Acessórios eletrônicos, Acessórios de moda, Alimentos e bebidas, Saúde e beleza, Casa e estilo de vida, Esportes e viagens.
-* Preço unitário: Preço de cada produto em $
-* Quantidade: Número de produtos comprados pelo cliente
-* Imposto: Taxa de imposto de 5% para compra do cliente
-* Total: Preço total incluindo imposto
-* Data: Data da compra (Registro disponível de janeiro de 2019 a março de 2019)
-* Hora: Hora da compra (10h às 21h)
-* Pagamento: Pagamento usado pelo cliente para compra (3 métodos estão disponíveis - Dinheiro, Cartão de crédito e Ewallet)
-* COGS: Custo dos produtos vendidos
-* Porcentagem de margem bruta: Porcentagem de margem bruta
-* (Renda bruta): Valor obtido na venda.
-* Classificação: Classificação de estratificação do cliente em sua experiência geral de compra (em uma escala de 1 a 10)
+* Branch (Agência): filiais do supermercado (3 agências estão disponíveis identificadas por A, B e C).
+* City (Cidade): Localização dos supercentros.
+* Customer type (Tipo de cliente): Tipo de clientes, registrados por Membros para clientes que usam cartão de membro e Normal para sem cartão de membro.
+* Gender (Gênero): Tipo de gênero do cliente.
+* Product line (Linha de produtos): Grupos de categorização de itens gerais - Acessórios eletrônicos, Acessórios de moda, Alimentos e bebidas, Saúde e beleza, Casa e estilo de vida, Esportes e viagens.
+* Unit price (Preço unitário): Preço de cada produto em $
+* Quantity (Quantidade): Número de produtos comprados pelo cliente
+* Tax 5% (Imposto): Taxa de imposto de 5% para compra do cliente
+* Total (Total): Preço total incluindo imposto
+* Date (Data): Data da compra (Registro disponível de janeiro de 2019 a março de 2019)
+* Time (Hora): Hora da compra (10h às 21h)
+* Payment (Pagamento): Pagamento usado pelo cliente para compra (3 métodos estão disponíveis - Dinheiro, Cartão de crédito e Ewallet)
+* cogs (COGS): Custo dos produtos vendidos
+* gross margin percentage (Porcentagem de margem bruta): Porcentagem de margem bruta
+* gross income (Renda bruta): Valor obtido na venda.
+* Rating (Classificação): Classificação de estratificação do cliente em sua experiência geral de compra (em uma escala de 1 a 10)
 Nesse case foram feitas 5 perguntas sobre essa tabela com o objetivo de obter insights de analise de dados. 
 
 
@@ -75,7 +75,7 @@ Nesse case foram feitas 5 perguntas sobre essa tabela com o objetivo de obter in
 
 ![grafico desempenho de vendas por cidade](grafico_vendas_por_nota.png)
 
- ### 💡 Resposta: Clientes tendem a comprar mais produtos nota 6, porém gastaram mais com produtos nota 8.
+ ### 💡 Resposta: Clientes tendem a gastar mais com produtos nota 8.
 
 ## 5. **Como diferentes métodos de pagamento (Dinheiro, Cartão de crédito, Ewallet) afetam o comportamento de compra dos clientes?**
    
